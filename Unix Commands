@@ -1,0 +1,76 @@
+Certainly! Here are some basic Linux commands that you can use in the terminal:
+
+1. **pwd** (Print Working Directory):
+   - Shows the current directory (folder) you are in.
+
+2. **ls** (List):
+   - Lists the files and directories in the current directory.
+   - Common options:
+     - `-l`: Long format, providing more details about files.
+     - `-a`: List hidden files (those starting with a dot).
+
+3. **cd** (Change Directory):
+   - Used to navigate between directories.
+   - Examples:
+     - `cd directory_name`: Change to a specific directory.
+     - `cd ..`: Move up one level (to the parent directory).
+     - `cd ~` or `cd`: Change to your home directory.
+
+4. **mkdir** (Make Directory):
+   - Creates a new directory.
+   - Example: `mkdir new_directory_name`
+
+5. **rmdir** (Remove Directory):
+   - Deletes an empty directory.
+   - Example: `rmdir directory_name`
+
+6. **touch**:
+   - Creates an empty file or updates the timestamp of an existing file.
+   - Example: `touch filename.txt`
+
+7. **rm** (Remove):
+   - Deletes files or directories.
+   - Be cautious with this command; it doesn't move items to the trash but permanently deletes them.
+   - Example:
+     - `rm file.txt`: Remove a file.
+     - `rm -r directory_name`: Remove a directory and its contents recursively (use with caution).
+
+8. **cp** (Copy):
+   - Copies files or directories.
+   - Example:
+     - `cp file.txt new_file.txt`: Copy a file.
+     - `cp -r directory_name new_directory_name`: Copy a directory and its contents recursively.
+
+9. **mv** (Move or Rename):
+   - Moves files or directories to a new location or renames them.
+   - Example:
+     - `mv file.txt new_location/`: Move a file.
+     - `mv old_name.txt new_name.txt`: Rename a file.
+
+10. **cat** (Concatenate and Display):
+    - Displays the contents of a text file.
+    - Example: `cat file.txt`
+
+11. **less** or **more**:
+    - Allows you to view the contents of a text file one page at a time.
+    - Example: `less file.txt`
+
+12. **head** and **tail**:
+    - Display the beginning or end of a file, respectively.
+    - Example:
+      - `head file.txt`: Display the first few lines of a file.
+      - `tail file.txt`: Display the last few lines of a file.
+
+13. **grep** (Global Regular Expression Print):
+    - Searches for a pattern in files.
+    - Example: `grep "pattern" file.txt`
+
+14. **chmod** (Change Mode):
+    - Changes file permissions.
+    - Example: `chmod permissions file.txt`
+
+15. **chown** (Change Owner):
+    - Changes the owner of a file or directory.
+    - Example: `chown new_owner:new_group file.txt`
+
+These are some of the most commonly used basic Linux commands. Linux offers a wide range of commands, each with its own set of options and functionalities. You can use the `man` command followed by the command name (e.g., `man ls`) to access the manual pages and learn more about each command's options and usage.
